@@ -9,7 +9,7 @@ using namespace std;
 class Solution{
   public:
     int minJumps(int arr[], int n){
-        int count=0;
+       int count=0;
         int currPosition=0;
         int jump =0;
         
@@ -26,7 +26,7 @@ class Solution{
         }
         if(currPosition < n-1)
             return -1;
-        return count;// Your code here
+        return count;
     }
 };
 

@@ -21,6 +21,7 @@ class Solution{
             {
                 currPosition=jump;
                 count++;
+                
             }
             
         }

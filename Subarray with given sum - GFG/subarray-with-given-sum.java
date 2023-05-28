@@ -56,7 +56,7 @@ class Solution
                list.add(j+1);
                list.add(i+1);
                return list;
-            }
+               }
               while(sum>s){
                   sum-=arr[j];
                   j++;
@@ -65,7 +65,7 @@ class Solution
                list.add(i+1);
                return list;
               }
-              }
+             }
             
         }
         list.add(-1);
